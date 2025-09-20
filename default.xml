@@ -13,7 +13,6 @@
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
-  <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="boundary" fetch="https://github.com/boundarydevices"/>
   <remote name="laird" fetch="https://github.com/LairdCP"/>
@@ -44,6 +43,5 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.6.36-2.1.0" upstream="imx_matter_2024_q2-post" />
-  <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="8fd7154c05b716e9635279047f65785399432d88" upstream="scarthgap-6.6.36-2.1.0" />
 
 </manifest>
