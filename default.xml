@@ -27,6 +27,6 @@
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
   <project remote="oss" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" name="meta-browser" path="sources/meta-browser"/>
   <project remote="clang"  revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" name="meta-clang" path="sources/meta-clang"/>
-  <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
+  <project remote="liccon3" name="meta-boundary" path="sources/meta-boundary"/>
 
 </manifest>
