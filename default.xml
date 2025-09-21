@@ -11,7 +11,8 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
-
+  <remote fetch="https://github.com/Alpha-tiger" name="liccon3"/>
+	
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
@@ -20,7 +21,7 @@
   <project remote="yocto" name="poky" path="sources/poky"/>
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="liccon3" name="meta-liccon3" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
