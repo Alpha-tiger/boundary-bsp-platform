@@ -13,7 +13,7 @@
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/Alpha-tiger" name="liccon3"/>
 	
-  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
+  <project remote="liccon3" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
